@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .parent{
+
+           display: grid;
+           grid-template-columns: repeat(4,1fr);
+           grid-template-areas: 
+            'img1 img2 img3 img4'
+            'img5 img5 img6 img7'
+            'img8 img9 img10 img11'
+            'img12 img13 img14 img15';
+            max-width: 1200px;
+            margin: 20px auto;        
+            padding: 10px;
+            width: 90%;  
+            gap: 5px;
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+        .img10{
+            grid-area: img10;
+        }
+        .img11{
+            grid-area: img11;
+        }
+        .img12{
+            grid-area: img12;
+        }
+        .img13{
+            grid-area: img13;
+        }
+        .img14{
+            grid-area: img14;
+        }
+        .img15{
+            grid-area: img15;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+        @media screen and (min-width:320px) and (max-width:425px){
+            .parent{
+
+           display: grid;
+           grid-template-columns: repeat(2,1fr);
+           grid-template-areas: 
+            'img1 img2'
+            'img3 img4  '
+            'img5 img5'
+            'img6 img7  '
+            'img8 img9 '
+            'img10 img11 '
+            'img12 img13'
+            'img14 img15';
+            max-width: 1200px;
+            margin: 20px auto;        
+            padding: 10px;
+            width: 90%;  
+            gap: 5px;
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+        .img10{
+            grid-area: img10;
+        }
+        .img11{
+            grid-area: img11;
+        }
+        .img12{
+            grid-area: img12;
+        }
+        .img13{
+            grid-area: img13;
+        }
+        .img14{
+            grid-area: img14;
+        }
+        .img15{
+            grid-area: img15;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+        }
+        @media screen and (min-width:426px) and (max-width:769px){
+            .parent{
+
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           grid-template-areas: 
+            'img1 img2 img3 '
+            'img4 img5 img5 '
+            'img6 img7 img8'
+            'img9 img10 img11'
+            'img12 img13 img14'
+            'img15 img15 img15';
+            max-width: 1200px;
+            margin: 20px auto;        
+            padding: 10px;
+            width: 90%;  
+            gap: 5px;
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+        .img10{
+            grid-area: img10;
+        }
+        .img11{
+            grid-area: img11;
+        }
+        .img12{
+            grid-area: img12;
+        }
+        .img13{
+            grid-area: img13;
+        }
+        .img14{
+            grid-area: img14;
+        }
+        .img15{
+            grid-area: img15;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzZjeDFNyzsw4TQuVnrdPrMlVl_mq4LN1erQ&s" alt="" class="img1">
+    <img src="https://media.istockphoto.com/id/864568096/photo/the-scenic-beauty-of-the-colorado-rocky-mountains-on-the-dallas-divide.jpg?s=612x612&w=0&k=20&c=SHvL34WRfOVspbH-cCRrLw21TCU7tHWm5J_TlBy4XH4=" alt="" class="img2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcAxy_r6kj6Zj_8MABqavWtKAnx3Un7g0JpA&s" alt="" class="img3">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfN-vLVnqj40hK4w7CXE6j1VhmjA-c2ZdJDQ&s" alt="" class="img4">
+    <img src="https://t3.ftcdn.net/jpg/00/64/16/84/360_F_64168411_KE6FpZ0VhLElbPn7f6eztY7WmbvhpMWz.jpg" alt="" class="img5">
+    <img src="https://media.istockphoto.com/id/598058914/photo/the-sun-shining-through-a-majestic-oak-tree.jpg?s=612x612&w=0&k=20&c=4DTzYebYeA2gd5GbLVau1fQZjBgLa94RjonAM1Ke1Co=" alt="" class="img6">
+    <img src="https://media.istockphoto.com/id/499092812/photo/royal-bengal-tiger.jpg?s=612x612&w=0&k=20&c=jShnlUdqzYKIqYLEd6X1ynBvNmE_-eoJacPCjtbyoO0=" alt="" class="img7">
+    <img src="https://t3.ftcdn.net/jpg/09/40/15/42/360_F_940154210_nE04nZDt8sWcYIXe8ELqFHaKZeAY8LQl.jpg" alt="" class="img8">
+    <img src="https://confetti703.wordpress.com/wp-content/uploads/2016/12/lion-animal-in-forest-beautiful-wallpaper.jpg" alt="" class="img9">
+    <img src="https://images.unsplash.com/photo-1586082207282-3dcb61d25ebd?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cm9zZSUyMGZsb3dlcnxlbnwwfHwwfHx8MA%3D%3D" alt="" class="img10">
+    <img src="https://images.pexels.com/photos/16946348/pexels-photo-16946348.jpeg?cs=srgb&dl=pexels-guilma-mori-ruiz-574110994-16946348.jpg&fm=jpg" alt="" class="img11">
+    <img src="https://i.pinimg.com/736x/9e/fd/83/9efd834c17dd0bbc805075fd73d0ded9.jpg" alt="" class="img12">
+    <img src="https://media.istockphoto.com/id/91772501/photo/beautiful-peacock.jpg?s=612x612&w=0&k=20&c=kqGWJppaQWkCdjgnNWU498rwQdpZqQjq0LlggwA0MgY=" alt="" class="img13">
+    <img src="https://m.media-amazon.com/images/I/715qeqCG4OL.jpg" alt="" class="img14">
+    <img src="https://w0.peakpx.com/wallpaper/855/971/HD-wallpaper-puppy-and-chicken-bird-chicken-dog-puppy.jpg" alt="" class="img15">
+    </div>
+ </div>
+</body>
+</html>
