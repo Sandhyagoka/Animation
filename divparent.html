@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .parent{
+
+           display: grid;
+           grid-template-columns: repeat(4,1fr);
+           grid-template-areas: 
+            'img1 img2 img3 img4'
+            'img5 img5 img6 img7'
+            'img8 img9 img10 img11'
+            'img12 img13 img14 img15';
+            max-width: 1200px;
+            margin: 20px auto;        
+            padding: 10px;
+            width: 90%;  
+            gap: 5px;
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+        .img10{
+            grid-area: img10;
+        }
+        .img11{
+            grid-area: img11;
+        }
+        .img12{
+            grid-area: img12;
+        }
+        .img13{
+            grid-area: img13;
+        }
+        .img14{
+            grid-area: img14;
+        }
+        .img15{
+            grid-area: img15;
+        }
+        img{
+            height: 100%;
+            width: 100%;
+
+        }
+        @media screen and (min-width:320px) and (max-width:425px){
+            .parent{
+
+           display: grid;
+           grid-template-columns: repeat(2,1fr);
+           grid-template-areas: 
+            'img1 img2'
+            'img3 img4  '
+            'img5 img5'
+            'img6 img7  '
+            'img8 img9 '
+            'img10 img11 '
+            'img12 img13'
+            'img14 img15';
+            max-width: 1200px;
+            margin: 20px auto;        
+            padding: 10px;
+            width: 100%;  
+            gap: 5px;
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+        .img10{
+            grid-area: img10;
+        }
+        .img11{
+            grid-area: img11;
+        }
+        .img12{
+            grid-area: img12;
+        }
+        .img13{
+            grid-area: img13;
+        }
+        .img14{
+            grid-area: img14;
+        }
+        .img15{
+            grid-area: img15;
+        }
+        img{
+            height: 200px;
+            width: 100%;
+
+        }
+        }
+        @media screen and (min-width:426px) and (max-width:769px){
+            .parent{
+
+           display: grid;
+           grid-template-columns: repeat(3,1fr);
+           grid-template-areas: 
+            'img1 img2 img3 '
+            'img4 img5 img5 '
+            'img6 img7 img8'
+            'img9 img10 img11'
+            'img12 img13 img14'
+            'img15 img15 img15';
+            max-width: 1200px;
+            margin: 20px auto;        
+            padding: 10px;
+            width: 100%;  
+            gap: 5px;
+        }
+        .img1{
+            grid-area: img1;
+        }
+        .img2{
+            grid-area: img2;
+        }
+        .img3{
+            grid-area: img3;
+        }
+        .img4{
+            grid-area: img4;
+        }
+        .img5{
+            grid-area: img5;
+        }
+        .img6{
+            grid-area: img6;
+        }
+        .img7{
+            grid-area: img7;
+        }
+        .img8{
+            grid-area: img8;
+        }
+        .img9{
+            grid-area: img9;
+        }
+        .img10{
+            grid-area: img10;
+        }
+        .img11{
+            grid-area: img11;
+        }
+        .img12{
+            grid-area: img12;
+        }
+        .img13{
+            grid-area: img13;
+        }
+        .img14{
+            grid-area: img14;
+        }
+        .img15{
+            grid-area: img15;
+        }
+        img{
+            height: 200px;
+            width: 100%;
+
+        }
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTaYVG_iCjqtC3bXEKrVyw1a1VUNpkA7fViw&s" alt="" class="img1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGmMTjSzkGYvJTXedSuISVU1WKpSNFsnNF8g&s" alt="" class="img2">
+    <img src="https://media.istockphoto.com/id/595126614/photo/colorful-chrysanthemum-flower.jpg?s=612x612&w=0&k=20&c=tF3beN_tizUGT-PIw1Icx4xBzLjFO4iY36KyjeGaJIM=" alt="" class="img3">
+    <img src="https://media.istockphoto.com/id/183412466/photo/eastern-bluebirds-male-and-female.jpg?s=612x612&w=0&k=20&c=6_EQHnGedwdjM9QTUF2c1ce7cC3XtlxvMPpU5HAouhc=" alt="" class="img4">
+    <img src="https://www.joinmytrip.com/blog/wp-content/uploads/2021/05/Most-Beautiful-Forests-in-the-World-Amazon.jpg" alt="" class="img5">
+    <img src="https://i.pinimg.com/originals/9c/b0/70/9cb070d62dc738a0c3a1a408d68e4af5.jpg" alt="" class="img6">
+    <img src="https://static.toiimg.com/thumb/121421837/121421837.jpg?height=746&width=420&resizemode=76&imgsize=492727" alt="" class="img7">
+    <img src="https://t3.ftcdn.net/jpg/00/71/91/44/240_F_71914406_DMYDrd92FwmDU3tbEbukJ3D3VQgJSIcW.jpg"alt="" class="img8">
+    <img src="https://t4.ftcdn.net/jpg/02/17/63/97/360_F_217639719_SxjxC4qyRoJQJdwmWtgQrvzTUX0SF3HY.jpg" alt="" class="img9">
+    <img src="https://media.istockphoto.com/id/520839324/photo/wild-elephant.jpg?s=612x612&w=0&k=20&c=jnDbuC5oqdaH_OCVsBGa19A5sCx7EVKj94DdVA6Xe0g=" alt="" class="img10">
+    <img src="https://media.istockphoto.com/id/523761634/photo/cute-panda-bear-climbing-in-tree.jpg?s=612x612&w=0&k=20&c=TxsmORsbuY1LpxQsc6T8fpWJo7lBwncciYhroAr8rXI=" alt="" class="img11">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnDjhWRebT5mxvPEtg2kR16fueqC1O7IqhbA&s" alt="" class="img12">
+    <img src="https://i.pinimg.com/736x/69/e2/e9/69e2e9cd082c665dd0dff0fd98f79503.jpg" alt="" class="img13">
+    <img src="https://bouqs.com/blog/wp-content/uploads/2024/02/shutterstock_368490641-min-827x550.jpg" alt="" class="img14">
+    <img src="https://i.ytimg.com/vi/O4abyf0JxfM/maxresdefault.jpg" alt="" class="img15">
+    </div>
+    </body>
+    </html>
